@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-import Counter from './components/Counter';
+import StandardComponents from './views/StandardComponents';
 
 class App extends Component {
 	render() {
 		return (
 			<div>
-				<Counter />
+				<StandardComponents />
 			</div>
 		);
 	}

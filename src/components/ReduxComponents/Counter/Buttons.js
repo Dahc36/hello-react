@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CounterButtons = ({ onAdd, onSub }) => {
+const Buttons = ({ onAdd, onSub }) => {
 	return (
 		<div>
 			<button onClick={onSub} >- 1</button>
@@ -9,4 +9,4 @@ const CounterButtons = ({ onAdd, onSub }) => {
 	);
 };
 
-export default CounterButtons;
+export default Buttons;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CounterDisplay = (props) => {
+const Display = (props) => {
 	return (
 		<div>
 			<h1>{props.counter}</h1>
@@ -8,4 +8,4 @@ const CounterDisplay = (props) => {
 	);
 };
 
-export default CounterDisplay;
+export default Display;
