@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-import StandardComponents from './views/StandardComponents';
+import Components from 'views/Components';
 
 class App extends Component {
 	render() {
 		return (
 			<div>
-				<StandardComponents />
+				<Components />
 			</div>
 		);
 	}
