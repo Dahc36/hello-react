@@ -3,18 +3,18 @@ import React from 'react';
 import Buttons from './Buttons';
 import Display from './Display';
 
-const Counter = (props) => {
+const Counter = ({ counter, onAdd, onSub}) => {
 	const handleAdd = () => {
-		props.onAdd();
+		onAdd();
 	}
 
 	const handleSub = () => {
-		props.onSub();
+		onSub();
 	}
 
 	return (
 		<div>
-			<Display counter={props.counter} />
+			<Display counter={counter} />
 			<Buttons onAdd={handleAdd} onSub={handleSub} />
 		</div>
 	);
