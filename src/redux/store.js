@@ -1,5 +1,5 @@
 import { combineReducers, createStore  } from 'redux';
-import { counter } from './reducersTest';
+import { counter } from './reducers';
 
 
 let combinedReducer = combineReducers({

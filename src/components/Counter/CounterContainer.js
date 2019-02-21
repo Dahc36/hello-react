@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 
-import Buttons from './Buttons';
-import Display from './Display';
+import Counter from './Counter';
 
-class Counter extends Component {
+class CounterContainer extends Component {
 	state = {
 		counter: 0
 	}
@@ -27,11 +26,13 @@ class Counter extends Component {
 	render() {
 		return (
 			<div>
-				<Display counter={this.state.counter} />
-				<Buttons onAdd={this.handleAdd} onSub={this.handleSub} />
+				<Counter
+					counter={this.state.counter}
+					onAdd={this.handleAdd}
+					onSub={this.handleSub} />
 			</div>
 		);
 	}
 }
 
-export default Counter;
+export default CounterContainer;

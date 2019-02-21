@@ -1,7 +1,7 @@
 import React from 'react';
 
-import StandardCounter from 'components/StandardComponents/Counter';
-import ReduxCounter from 'components/ReduxComponents/Counter';
+import StandardCounter from 'components/Counter/CounterContainer';
+import ReduxCounter from 'components/Counter/CounterReduxContainer';
 
 const Components = () => {
 	return (
