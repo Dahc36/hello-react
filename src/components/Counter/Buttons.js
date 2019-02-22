@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Buttons = ({ onAdd, onSub }) => {
 	return (
@@ -7,6 +8,11 @@ const Buttons = ({ onAdd, onSub }) => {
 			<button onClick={onAdd} >+ 1</button>
 		</div>
 	);
+};
+
+Buttons.propTypes = {
+	onAdd: PropTypes.func.isRequired,
+	onSub: PropTypes.func.isRequired
 };
 
 export default Buttons;

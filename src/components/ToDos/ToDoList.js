@@ -1,12 +1,14 @@
 import React from 'react';
 
-import Todo from './Todo';
+import ToDo from './ToDo';
 
-const TodoList = () => {
+const ToDoList = () => {
 	return (
-		<div>TodoList</div>
-		<Todo />
+		<div>
+			<h2>ToDoList</h2>
+			<ToDo />
+		</div>
 	);
 };
 
-export default TodoList;
+export default ToDoList;

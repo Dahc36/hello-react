@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import Counter from './Counter';
+import Counter from 'components/Counter';
 
-class CounterContainer extends Component {
+class AddSub extends Component {
 	state = {
 		counter: 0
 	}
@@ -35,4 +35,4 @@ class CounterContainer extends Component {
 	}
 }
 
-export default CounterContainer;
+export default AddSub;

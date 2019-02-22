@@ -1,7 +1,8 @@
 import React from 'react';
 
-import StandardCounter from 'components/Counter/CounterContainer';
-import ReduxCounter from 'components/Counter/CounterReduxContainer';
+import StandardCounter from 'containers/Counter/AddSub';
+import ReduxCounter from 'containers/Counter/AddSubRedux';
+import ToDos from 'components/ToDos/ToDos';
 
 const Components = () => {
 	return (
@@ -9,6 +10,7 @@ const Components = () => {
 			<h1>Components</h1>
 			<StandardCounter />
 			<ReduxCounter />
+			<ToDos />
 		</div>
 	);
 };
