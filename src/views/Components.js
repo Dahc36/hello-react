@@ -1,8 +1,8 @@
 import React from 'react';
 
-import StandardCounter from 'containers/Counter/AddSub';
-import ReduxCounter from 'containers/Counter/AddSubRedux';
-import ToDos from 'components/ToDos/ToDos';
+import StandardCounter from 'components/Counter/containers/AddSub';
+import ReduxCounter from 'components/Counter/containers/AddSubRedux';
+import ToDos from 'components/ToDos/containers/test';
 
 const Components = () => {
 	return (

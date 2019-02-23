@@ -1,8 +1,10 @@
 import React from 'react';
 
-const ToDo = () => {
+const ToDo = ({ text }) => {
 	return (
-		<div>ToDo</div>
+		<p>
+			{text}
+		</p>
 	);
 };
 

@@ -2,17 +2,17 @@ import React from 'react';
 
 import './index.css';
 
-const Loader = (loading) => (Component) => {
+const Loader = (loading, props) => (Component) => {
 	if(Component) {
 		return (
 			loading ? (
 				<div className="loader"></div>
 			) : (
-				<Component />
+				<Component {...props} />
 			)
 		);
 	} else {
-		throw ('Error: Loader needs component argument')
+		throw new Error('Loader needs the Component argument');
 	}
 };
 
