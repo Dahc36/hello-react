@@ -2,7 +2,7 @@ import React from 'react';
 
 import StandardCounter from 'components/Counter/containers/AddSub';
 import ReduxCounter from 'components/Counter/containers/AddSubRedux';
-import ToDos from 'components/ToDos/containers/test';
+import ReduxCounterJRG from 'components/Counter/containers/multDivSubRedux';
 
 const Components = () => {
 	return (
@@ -10,7 +10,7 @@ const Components = () => {
 			<h1>Components</h1>
 			<StandardCounter />
 			<ReduxCounter />
-			<ToDos />
+			<ReduxCounterJRG />
 		</div>
 	);
 };

@@ -29,7 +29,8 @@ class AddSub extends Component {
 				<Counter
 					counter={this.state.counter}
 					onAdd={this.handleAdd}
-					onSub={this.handleSub} />
+					onSub={this.handleSub}
+					/>
 			</div>
 		);
 	}
