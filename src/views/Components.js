@@ -1,8 +1,8 @@
 import React from 'react';
 
-import StandardCounter from 'components/Counter/CounterContainer';
-import ReduxCounter from 'components/Counter/CounterReduxContainer';
-import ReduxCounterJRG from 'components/Counter/CounterReduxContainerJRG';
+import StandardCounter from 'components/Counter/containers/AddSub';
+import ReduxCounter from 'components/Counter/containers/AddSubRedux';
+import ReduxCounterJRG from 'components/Counter/containers/multDivSubRedux';
 
 const Components = () => {
 	return (

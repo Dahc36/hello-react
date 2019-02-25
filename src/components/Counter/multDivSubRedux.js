@@ -1,7 +1,7 @@
-import { connect } from 'react-redux'
+mport { connect } from 'react-redux'
 
 import { multValue, divValue } from 'redux/actionCreators';
-import Counter from './Counter';
+import Counter from 'components/Counter';
 
 const mapStateToProps = (state) => ({
 	counter: state.counter

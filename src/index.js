@@ -5,9 +5,9 @@ import { Provider } from 'react-redux'
 import store from 'redux/store';
 import App from 'App';
 
-const unsubscribe = store.subscribe(() => {
-	console.log(store.getState());
-});
+// const unsubscribe = store.subscribe(() => {
+// 	console.log(store.getState());
+// });
 
 ReactDOM.render(
 	<Provider store={store} >
