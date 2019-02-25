@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Buttons = ({ onSub, onAdd, onSubText, onAddText }) => {
+const Buttons = ({ onSub, onAdd, subText, addText }) => {
 	return (
 		<div>
-			<button onClick={onSub} >{onSubText}</button>
-			<button onClick={onAdd} >{onAddText}</button>
+			<button onClick={onSub} >{subText}</button>
+			<button onClick={onAdd} >{addText}</button>
 		</div>
 	);
 };

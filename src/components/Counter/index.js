@@ -5,11 +5,11 @@ import Buttons from './Buttons';
 import Display from './Display';
 
 const Counter = (props) => {
-	const { counter, onAdd, onSub, text, onSubText, onAddText } = props;
+	const { counter, onAdd, onSub, text, subText, addText } = props;
 	return (
 		<div>
 			<Display counter={counter} text={text} />
-			<Buttons onAdd={onAdd} onSub={onSub} onSubText={onSubText} onAddText={onAddText} />
+			<Buttons onAdd={onAdd} onSub={onSub} subText={subText} addText={addText} />
 		</div>
 	);
 }
@@ -19,14 +19,14 @@ Counter.propTypes = {
 	onAdd: PropTypes.func.isRequired,
 	onSub: PropTypes.func.isRequired,
 	text: PropTypes.string,
-	onSubText: PropTypes.string,
-	onAddText: PropTypes.string
+	subText: PropTypes.string,
+	addText: PropTypes.string
 };
 
 Counter.defaultProps = {
 	text: 'Contador',
-	onSubText: '-1',
-	onAddText: '+1'
+	subText: '-1',
+	addText: '+1'
 };
 
 export default Counter;
