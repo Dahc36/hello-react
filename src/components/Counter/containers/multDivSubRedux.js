@@ -13,7 +13,9 @@ const mapDispatchToProps = (dispatch) => ({
 	},
 	onSub: () => {
 		dispatch(divValue(3));
-	}
+	},
+	onSubText: 'Dividido en 3',
+	onAddText: 'Multiplicado por 3'
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Counter);
