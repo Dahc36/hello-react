@@ -1,6 +1,8 @@
 import {
 	ADD_VALUE,
-	SUB_VALUE
+	SUB_VALUE,
+	MULT_VALUE,
+	DIV_VALUE
 } from './actions';
 
 export const addValue = (value) => {
@@ -16,3 +18,18 @@ export const subValue = (value) => {
 		value
 	};
 };
+
+export const multValue = (value) => {
+	return {
+		type: MULT_VALUE,
+		value
+	};
+};
+
+export const divValue = (value) => {
+	return {
+		type: DIV_VALUE,
+		value
+	};
+};
+
